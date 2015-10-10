@@ -1,0 +1,108 @@
+body {
+	background-color: #99B2E6;
+	font-size: 16pt;
+}
+.container {
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Arial", Arial, Sans-serif;
+}
+
+.content {
+	width: 30em;
+	border: 2px solid black;
+	border-radius: 10px;
+	float: left;
+	margin: 0;
+	padding: 15px;
+	display: inline;
+	background-color: #D6E0F5;
+}
+
+.navBar {
+	width: 13em;
+	border: 2px solid black;
+	border-radius: 10px;
+	background:#FCFF80;
+	float: left;
+	margin-right: 10px;
+	display: inline;
+	
+}
+
+.navList {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+.navElement {
+	padding: 3px;
+	font-size: 16pt;
+	width: 75%;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+.letterContent {
+	width: 50em;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	display: inline;
+	background-color: #D6E0F5;
+}
+
+.titleBar {
+	text-align: center;
+	padding: 15px 15px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.navLogo {
+	width: 75%;
+	height: 75%;
+}
+
+a.navLink:hover {
+	font-weight: bold;
+}
+
+a.navLink {
+	color: #2D3444;
+	
+}
+
+.active {
+	border: 2px solid #99B2E6;
+	border-radius: 10px;
+	background-color: #D6E0F5;
+	color: black;
+	font-weight: bold;
+	cursor: default;
+}
+
+div.aboutUsPicDiv {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+}
+
+.mapLink {
+	color: black;
+}
+#footer {
+   position:absolute;
+   width: 50%;
+   font-size: 12px;
+   bottom:0;
+   height:60px;
+}

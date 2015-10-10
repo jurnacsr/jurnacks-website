@@ -1,0 +1,16 @@
+.wrapper
+{
+	border: 1px solid black;
+	display:table;
+}
+
+.cell
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.content
+{
+	height: 75%;
+}
