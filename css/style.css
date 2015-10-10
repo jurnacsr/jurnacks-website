@@ -1,108 +1,338 @@
 body {
 	background-color: #99B2E6;
-	font-size: 16pt;
+	font-size: 13pt;
+	font-family: "Helvetica" Arial, sans-serif;
+	color: black;
 }
-.container {
-	width: 50em;
+
+div.pageContainer {
+
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Arial", Arial, Sans-serif;
+	margin-bottom: 5px;
 }
 
-.content {
-	width: 30em;
-	border: 2px solid black;
-	border-radius: 10px;
-	float: left;
-	margin: 0;
-	padding: 15px;
-	display: inline;
-	background-color: #D6E0F5;
-}
-
-.navBar {
-	width: 13em;
-	border: 2px solid black;
-	border-radius: 10px;
-	background:#FCFF80;
-	float: left;
-	margin-right: 10px;
-	display: inline;
-	
-}
-
-.navList {
-	list-style-type: none;
-	text-transform: uppercase;
-}
-
-.navElement {
-	padding: 3px;
-	font-size: 16pt;
-	width: 75%;
+div.pageContent {
+	width: 70%;
+	max-width: 900px;
 	padding: 10px;
-	padding-left: 25px;
-}
-
-.letterContent {
-	width: 50em;
-	border: 2px solid black;
-	border-radius: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 15px;
-	display: inline;
 	background-color: #D6E0F5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 2px solid black;
+
 }
 
-.titleBar {
+div.titleBar {
 	text-align: center;
 	padding: 15px 15px;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
+	font-family: "Garamond", Times, serif;
 }
 
-.navLogo {
+div.navImage {
+
+	max-width: 90%;
+	max-height: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+div#index_details {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.navLogo {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+img#index_storePic {
 	width: 75%;
-	height: 75%;
+	border: 1px solid black;
 }
 
-a.navLink:hover {
-	font-weight: bold;
-}
-
-a.navLink {
-	color: #2D3444;
-	
-}
-
-.active {
-	border: 2px solid #99B2E6;
-	border-radius: 10px;
-	background-color: #D6E0F5;
-	color: black;
-	font-weight: bold;
-	cursor: default;
+.navbar .nav > li > a {
+	color: black !important;
 }
 
 div.aboutUsPicDiv {
 	border: 2px solid black;
 	border-radius: 10px;
 	padding: 10px;
-	width: 40%;
+	width: 75%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 14px;
 }
 
-.mapLink {
-	color: black;
+div.aboutUsPicDiv  img {
+	border: 1px solid black;
 }
-#footer {
-   position:absolute;
-   width: 50%;
-   font-size: 12px;
-   bottom:0;
-   height:60px;
+
+div.aboutUs_special {
+	font-family: "Garamond", Times, serif;
+	font-size: 17pt;
+	margin: 10px;
+}
+
+p#aboutUs_caption {
+	font-size: 0.85em;
+}
+
+img#aboutUs_pic {
+	width: 75%;
+	border: 1px solid black;
+
+}
+
+div.services_table {
+	display: table;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+div.services_tableRow {
+	display: table-row;
+}
+
+div.services_tableData {
+	display: table-cell;
+	padding: 3px;
+	vertical-align: middle;
+}
+
+img.services_MT {
+	border: 2px solid black;
+	width: 200px;
+}
+
+img#services_Marge {
+	border: 2px solid black;
+}
+.subtitleBar {
+	text-align: center;
+	padding: 15px 15px;
+	font-size: 1.33em;
+}
+
+/*
+	This is only if the page is small - mobile
+*/
+@media only screen and (max-width: 767px) {
+
+	div.pageContainer {
+		width: 95%;
+	}
+	div.navImage {
+		display: none;
+	}
+
+	div.pageContent {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	img#index_storePic {
+		width: 90%;
+		border: 2px solid black;
+	}
+
+
+	div.titleBar {
+		font-size: 2em;
+	}
+
+	.navbar {
+		margin-top: 5px;
+		font-family: "Garamond", Times, serif;
+		font-size: 1.25em;
+		border-radius: 10px;
+		border: 2px solid black;
+		color: #000000;
+	}
+
+
+	.navbar-brand {
+		color: #000;
+	}
+
+	.navbar-header {
+	    float: left;
+	    padding: 5px;
+	    text-align: center;
+	    width: 100%;
+	    padding-top: 20px;
+	}
+	.navbar-brand {
+		float:none;
+		font-size: 1.5em;
+	}
+
+	.navbar-toggle {
+		margin-top: -8px;
+	}
+
+	img#aboutUs_pic {
+		width: 80%;
+		border: 1px solid black;
+	}
+
+	.smallHide {
+		display: none;
+	}
+
+	img#services_Marge {
+		min-width: 250px;
+		width:60%;
+	}
+	
+	.smallVisitImage {
+		width: 70%;
+		border: 2px solid black;
+	}
+}
+/*
+	Bootstrap and responsive fun -
+	Source: http://www.bootply.com/idWWJSmrKD#
+
+	This is only if the page is large
+*/
+@media (min-width: 768px) {
+	.navbar-collapse {
+		height: auto;
+		border-top: 0;
+		box-shadow: none;
+		max-height: none;
+		padding-left:0;
+		padding-right:0;
+	}
+	.navbar-collapse.collapse {
+		display: block !important;
+		width: auto !important;
+		padding-bottom: 0;
+		overflow: visible !important;
+	}
+	.navbar-collapse.in {
+		overflow-x: visible;
+	}
+
+	.navbar	{
+		max-width:175px;
+		margin-right: 0;
+		margin-left: 0;
+
+		padding: 10px;
+		border-radius: 10px;
+		border: 2px solid black;
+		margin-top: 10px;
+		background-color: #FCFF80;
+
+		font-family: "Garamond", Times, serif;
+		font-size: 1.25em;
+	}	
+
+	div.pageContent {
+		float: left;
+		margin-left: 10px;
+
+	}
+
+	ul.navbar-nav {
+		font-weight: bold;
+	}
+
+	.navbar-brand {
+		display: none;		
+	}
+
+	.navbar {
+		float: left;
+		margin-right: 10px;
+	}
+
+	.navbar-nav,
+	.navbar-nav > li,
+	.navbar-left,
+	.navbar-right,
+	.navbar-header
+	{float:none !important;}
+
+	.navbar-right .dropdown-menu {left:0;right:auto;}
+
+	.navbar-collapse .navbar-nav.navbar-right:last-child {
+	    margin-right: 0;
+	}
+	.nav > li > a:focus, .nav > li > a:hover {
+	    text-decoration: underline;
+	}
+	.nav > li > a:focus, .nav > li > a:hover {
+	    text-decoration: underline;
+	}
+
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	    border: 2px solid #99B2E6;
+		border-radius: 10px;
+		background-color: #D6E0F5;
+		color: #000;
+		font-weight: bold;
+		cursor: default;
+	}
+
+	.largeHide {
+		display: none;
+	}
+	
+	.largeVisitImage {
+		border: 2px solid black;
+		width: 300px;
+		height: auto;
+	}
+}
+
+/* 7/8/2015 Newsletter Styling */
+
+.newsletterBody {
+	width: 95%;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 0.85em;
+	margin: 3px;
+	border: 2px solid black;
+	border-radius: 10px;
+
+}
+#boneBrothJokeDiv {
+	width: 90%;
+	padding: 10px;
+	font-size: 0.95em;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #9FADCC;
+
+}
+
+#leftFoatRecipe {
+	float: left;
+	width: 45%;
+	margin-right: 8%;
+}
+
+#rightFloatRecipe {
+	float: left;
+	width: 45%;
+
 }

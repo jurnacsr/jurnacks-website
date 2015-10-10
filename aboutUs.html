@@ -1,71 +1,111 @@
 <!DOCTYPE html>
-<html>
-<head profile="http://www.w3.org/2005/10/profile">
-	<link rel="icon" type="image/png" href="img/icon.png">
-	<title>About Us - Jurnack's, Naturally!, Inc.</title>
-	<link rel="stylesheet" href="css/style.css" />
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>About Us - Jurnack's, Naturally!</title>
 
-<body>
-	<div class="container" style="">
-		<div class="navBar">
-			<center><a href="index.html"><img class="navLogo" src="img/store-logo.png"></a>
-			</center>
-			<ul class="navList">
-				<li class="navElement"><a class="navLink" href="index.html">Home</a></li>
-				<li class="navElement active"><a class="navLink" href="aboutUs.html">About Us</a></li>
-				<li class="navElement"><a class="navLink" href="services.html">Services</a></li>
-				<li class="navElement"><a class="navLink" href="events.html">Events</a></li>
-				<li class="navElement"><a class="navLink" href="visit.html">Virtual Visit</a></li>
-				<li class="navElement"><a class="navLink" href="affiliates.html">Affiliates</a></li>
-				<li class="navElement"><a class="navLink" href="buyingClub.html">Buying Club</a></li>
-				<li class="navElement"><a class="navLink" href="contact.html">Contact Us</a></li>
-			</ul>
-		</div>
-		<div class="content">
-			<div class="titleBar">
-				About Us
-			</div>
-			<div class="aboutUsPicDiv">
-			<div class="aboutUsPicDivPic">
-			<img style="width: 268px; height: 194px;" src="img/mary-n-dave.jpeg" alt="MT 'n Dave"/>    
-			</div>
-			Mary Theresa and Dave Jurnack look forward to helping you get on the road to better health, naturally!
-			</div>
-			<p>
-			<center><strong>The Birth of a Health Food Store</strong></center>
-			</p><p>In
-			1983, Mary Theresa's mother, Sally Schultz, opened Schultz's Natural
-			Foods in resonse to her need for natural, unprocessed foods and
-			supplements. Sally, a registered nurse, had been educating herself in
-			what her body needed naturally to allow it to overcome the diagnosis of
-			Lupus she had been given years ago. Sally knew that there were more
-			people that would also benefit from her knowledge, so one thing led to
-			another and the health food store became a reality.</p><p>In 1992 Mary
-			Theresa and Dave took over the store and changed the name to Jurnack's,
-			Naturally! Since then Mary Theresa has attended many lectures, classes
-			and schools and graduated with a Bachelor's of Science in Holistic
-			Nutrition. She is also a certified herbalist as well as a Master of
-			Holisted Health and Certified Natural Health Professional.</p><p>Dave
-			and Mary Theresa really do enjoy working together in the store offering
-			you all you need to assist your body in doing what it was designed to
-			do....heal itself!</p>
-			<p>
-			In September of 2013 Mary Theresa received her Doctor of Naturopathy diploma and is now a Traditional Doctor of Naturopathy and a member of The Pennsylvania Traditional Naturopaths Association.
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-			<center><strong>What is Traditional Naturopathy?</strong></center>
-			
-			<p>"Naturopathy is a philosophy which encompasses a view of life, a model for living a full life. The word naturopathy is a Latin-Greek hybrid which can be defined as 'being close to or benefiting from nature.'" - Stewart Mitchell, Naturopathy: Understanding the Healing Power of Nature.</p>
+    <!-- Jurnacks.com site style -->
+    <link href="css/style.css" rel="stylesheet">
 
-			<p>A traditional, classical naturopath specializes in wellness. That is to say, teaching clients how applying natural lifestyle approaches can act to facilitate the body's own natural healing and health building potential. The traditional naturopath does not undertake to "diagnose" or "treat diseases," but rather recognizes that the majority of sub-health conditions are cumulative lifestyle effects, and that the underlying cause of what we call "disease" (or, "dis-ease") is improper diet, unhealthy habits, and environmental factors which cause biological imbalances leading to a weakening of the bodies' natural defenses and subsequent breakdown in health.</p>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="pageContainer">
 
-			<p>Traditional Naturopaths guide and teach their client in natural health approaches such as fasting and detoxification, dietary improvements, the use of herbs, hot baths, aromatherapy, exercise, rest, sunshine, and many other natural health modalities.</p>
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" style="color: black;">
+         <a class="navbar-brand" href="#" style="color: black;">Navigation</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navImage">
+            <a href="index.html"><img class="navLogo" src="img/store-logo.png" /></a>
+          </div>
+        </div>
 
-			<p>The practice of Traditional Naturopathy is not considered the practice of medicine and is currently legal in all 50 states, except South Carolina and Tennessee. </p>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li class="navItem"><a href="index.html">Home</a></li>
+            <li class="navItem active"><a href="aboutUs.html">About Us</a></li>
+            <li class="navItem"><a href="services.html">Services</a></li>
+            <li class="navItem"><a href="events.html">Events</a></li>
+            <li class="navItem"><a href="newsletter.html">Newsletter</a></li>
+            <li class="navItem"><a href="visit.html">Virtual Visit</a></li>
+            <li class="navItem"><a href="affiliates.html">Affiliates</a></li>
+            <li class="navItem"><a href="buyingClub.html">Buying Club</a></li>
+            <li class="navItem"><a href="contactUs.html">Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
 
-			<p>The practice of Traditional Naturopathy is recognized as a common occupation at the Federal level (U.S. Congress 1928, 1929, 1930 and 30 Federal Court rulings between 1958 and 1978) and as such  it is a profession protected under the 14th and 9th Amendments of the U.S. Constitution. Several states have also made this stipulation either by statute or in the Courts.
-			</p>
-	</div>
-</body>
 
+      <div class="pageContent">
+        <div class="titleBar">
+        About Us
+        </div>
+        <center>
+          <img id="aboutUs_pic" src="img/mary-n-dave.jpeg" alt="MT 'n Dave"/>
+        </center>    
+        <center>
+          <p id="aboutUs_caption">
+            Mary Theresa and Dave Jurnack look forward to helping you get on the road to better health, naturally!
+          </p>
+        </center>
+        <p>
+        <center><strong><div class="aboutUs_special">The Birth of a Health Food Store</div></strong></center>
+        </p><p>In
+        1983, Mary Theresa's mother, Sally Schultz, opened Schultz's Natural
+        Foods in resonse to her need for natural, unprocessed foods and
+        supplements. Sally, a registered nurse, had been educating herself in
+        what her body needed naturally to allow it to overcome the diagnosis of
+        Lupus she had been given years ago. Sally knew that there were more
+        people that would also benefit from her knowledge, so one thing led to
+        another and the health food store became a reality.</p><p>In 1992 Mary
+        Theresa and Dave took over the store and changed the name to Jurnack's,
+        Naturally! Since then Mary Theresa has attended many lectures, classes
+        and schools and graduated with a Bachelor's of Science in Holistic
+        Nutrition. She is also a certified herbalist as well as a Master of
+        Holisted Health and Certified Natural Health Professional.</p><p>Dave
+        and Mary Theresa really do enjoy working together in the store offering
+        you all you need to assist your body in doing what it was designed to
+        do....heal itself!</p>
+        <p>
+        In September of 2013 Mary Theresa received her Doctor of Naturopathy diploma and is now a Traditional Doctor of Naturopathy and a member of The Pennsylvania Traditional Naturopaths Association.
+
+        <center><strong><div class="aboutUs_special">What is Traditional Naturopathy?</div></strong></center></center>
+        
+        <p>"Naturopathy is a philosophy which encompasses a view of life, a model for living a full life. The word naturopathy is a Latin-Greek hybrid which can be defined as 'being close to or benefiting from nature.'" - Stewart Mitchell, Naturopathy: Understanding the Healing Power of Nature.</p>
+
+        <p>A traditional, classical naturopath specializes in wellness. That is to say, teaching clients how applying natural lifestyle approaches can act to facilitate the body's own natural healing and health building potential. The traditional naturopath does not undertake to "diagnose" or "treat diseases," but rather recognizes that the majority of sub-health conditions are cumulative lifestyle effects, and that the underlying cause of what we call "disease" (or, "dis-ease") is improper diet, unhealthy habits, and environmental factors which cause biological imbalances leading to a weakening of the bodies' natural defenses and subsequent breakdown in health.</p>
+
+        <p>Traditional Naturopaths guide and teach their client in natural health approaches such as fasting and detoxification, dietary improvements, the use of herbs, hot baths, aromatherapy, exercise, rest, sunshine, and many other natural health modalities.</p>
+
+        <p>The practice of Traditional Naturopathy is not considered the practice of medicine and is currently legal in all 50 states, except South Carolina and Tennessee. </p>
+
+        <p>The practice of Traditional Naturopathy is recognized as a common occupation at the Federal level (U.S. Congress 1928, 1929, 1930 and 30 Federal Court rulings between 1958 and 1978) and as such  it is a profession protected under the 14th and 9th Amendments of the U.S. Constitution. Several states have also made this stipulation either by statute or in the Courts.
+        </p>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
