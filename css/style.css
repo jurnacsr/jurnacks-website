@@ -1,20 +1,19 @@
 body {
 	background-color: #99B2E6;
 	font-size: 13pt;
-	font-family: "Helvetica" Arial, sans-serif;
+	font-family: "Helvetica", Arial, sans-serif;
 	color: black;
+	overflow-y: scroll;
 }
 
 div.pageContainer {
-
-	width: 90%;
+	width: 1000px;
 	margin: auto;
 	margin-bottom: 5px;
 }
 
 div.pageContent {
-	width: 70%;
-	max-width: 900px;
+	width: 79%;
 	padding: 10px;
 	background-color: #D6E0F5;
 	margin-top: 10px;
@@ -226,9 +225,8 @@ img#services_Marge {
 	}
 
 	.navbar	{
-		max-width:175px;
-		margin-right: 0;
-		margin-left: 0;
+		float: left;
+		width: 20%;
 
 		padding: 10px;
 		border-radius: 10px;
@@ -252,11 +250,6 @@ img#services_Marge {
 
 	.navbar-brand {
 		display: none;		
-	}
-
-	.navbar {
-		float: left;
-		margin-right: 10px;
 	}
 
 	.navbar-nav,
@@ -334,4 +327,18 @@ img#services_Marge {
 	float: left;
 	width: 45%;
 
+}
+
+#closedEarlyDiv {
+	width: 85%;
+    font-size: 110%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
+	background: white;
+	text: red;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+	text-align: center;
 }

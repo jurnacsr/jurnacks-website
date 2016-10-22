@@ -35,7 +35,7 @@
 	</script>
   </head>
   <body>
-    <div class="pageContainer">
+    <div class="pageContainer clearfix">
 
       <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -103,5 +103,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			var dontShowDate = new Date('2016/07/17');
+			if (new Date() > dontShowDate) {
+				$('#closedEarlyDiv').hide();
+			}
+		});
+	</script>
   </body>
 </html>
