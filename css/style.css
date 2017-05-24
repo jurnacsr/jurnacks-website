@@ -198,6 +198,39 @@ img#services_Marge {
 		width: 70%;
 		border: 2px solid black;
 	}
+
+	.social-container {
+		margin-left: auto;
+		margin-right: auto;
+		float: right;
+		width: 100%;
+	    position: absolute;
+	    top: 80%;
+	    left: 57%;
+	}
+
+	.link-container {
+		width:20%;
+		height:60px;
+		background-size: 100%;
+		float: left;
+		background-repeat: no-repeat;
+	}
+
+	.facebook-social {
+   		background-image: url("../img/icon/facebook-icon.png");
+	}
+
+	.twitter-social {
+    	background-image: url("../img/icon/twitter-icon.png");
+	}
+
+	/*
+		Encore widget hide on mobile
+	*/
+	.ac-widget {
+		display: none !important; 
+	}
 }
 /*
 	Bootstrap and responsive fun -
@@ -287,7 +320,27 @@ img#services_Marge {
 	.largeVisitImage {
 		border: 2px solid black;
 		width: 300px;
-		height: auto;
+	}
+
+	.social-container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.link-container {
+		width:50%;
+		height:85px;
+		background-size: 100%;
+		float: left;
+		background-repeat: no-repeat;
+	}
+
+	.facebook-social {
+   		background-image: url("../img/icon/facebook-icon.png");
+	}
+
+	.twitter-social {
+    	background-image: url("../img/icon/twitter-icon.png");
 	}
 }
 
