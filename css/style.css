@@ -225,6 +225,10 @@ img#services_Marge {
     	background-image: url("../img/icon/twitter-icon.png");
 	}
 
+	.dao-link {
+		width:95%;
+	}
+
 	/*
 		Encore widget hide on mobile
 	*/
@@ -341,6 +345,10 @@ img#services_Marge {
 
 	.twitter-social {
     	background-image: url("../img/icon/twitter-icon.png");
+	}
+
+	.dao-link {
+		width:95%;
 	}
 }
 
